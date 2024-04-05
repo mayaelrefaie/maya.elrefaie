@@ -1,0 +1,253 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+body
+{
+    color: white;
+    background: #A48270;
+}  
+.hr{
+    color: black;
+    border: 5px;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 11%;
+    background:rgba(120, 90, 90, 0.965);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    position:relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight:600;
+
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: width 0.2s ease;
+}
+
+.navbar a:hover{
+    font-size: 30px;
+    background-color: #A48270;
+    border-radius: 11px;
+}
+.home{
+    position: relative;
+    width:100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(Mayas\ protfolio\ bkgd.png ) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding:70px;
+}
+.home-content {
+    
+}
+.home-content h3 {
+    
+}
+.home-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: -3;
+    color: white;
+
+
+}
+.home-sec a{
+    Display: inline-flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 40px; 
+    height: 48px;
+    border: 2px solid white;
+    border-radius: 50%; 
+    font-size: 28px; 
+    margin-bottom: 2% ;
+    background: white;
+}
+.btn-box{
+    padding: 12px 28px; 
+    background:rgba(120, 90, 90, 0.965);
+    border-radius: 40px; 
+    font-size: 16px; 
+    color: white; 
+    letter-spacing: 1px; 
+    text-decoration: none; 
+    font-weight: 600;
+    transition: width 0.2s ease;
+}
+.btn-box:hover{
+    font-size: large;
+}
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.about-image img{
+     padding-bottom: 20%; 
+     max-width: 630px; 
+     height: auto; 
+     width: 100%; 
+     border-radius: 8px;
+     align-items: center baseline;
+     size: smaller;
+     margin-left: 45%;
+}
+.about-text p{
+    font-size: 17px; 
+    font-weight: 600; 
+    color: rgb(255, 255, 255); 
+    line-height: 1.7; 
+    margin: 15px 0 30px;
+    align-items: center;
+    text-align: center;
+}
+.about-text h3{
+    border-radius: 60px;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: normal ;
+
+}
+.about-text{
+    color: rgb(255, 255, 255); 
+    font-size: 17px; 
+    line-height: 1.4; 
+    margin-bottom: 4rem;
+}
+.about-text p span{
+    color: wheat;
+}
+
+.tabs{
+    display: flex;
+    margin: 20px 0 40px;
+    justify-content: space-evenly;
+    background-color: rgb(185, 144, 144);
+}
+.tabs-link{ 
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position:relative;
+}
+.tabs-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+    }
+
+.tabs-link.active-link::after{
+    width: 50%;
+}
+   
+.school p{
+   float: right;
+    width: 50%;
+}
+.school p span{
+    color: #050505bb;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+}
+.uni p{
+    float: left;
+    width: 50%;
+}
+.uni p span{
+    color: #050505bb;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+}
+.uni p img{
+    margin-left: 14%;
+    border-radius: 8%;
+
+}
+.school p img{
+border-radius: 8%;
+margin-right: 14%;
+}
+.tab-contents{
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.tab-contents.active-tab{
+    display: block;
+    opacity: 1;
+}
+.Education{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.active-tab {
+    
+}
+.home-link img {
+    width: 40px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    justify-content: space-between;
+    transition: width 0.2s ease; /* Transition effect */
+}
+
+.home-link img:hover {
+    width: 50px; /* Larger width on hover */
+}
+.contact-left h1{
+color: white;
+font-size: 35px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ff004f;
+    display: inline-block;
+}
