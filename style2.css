@@ -9,7 +9,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(153, 102, 102)), url(Mayas\ protfolio\ bkgd.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(133, 177, 198)), url(1.png);
     background-position: center;
     background-size: cover;
     display: flex;
