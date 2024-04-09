@@ -299,7 +299,8 @@ margin-left: 7%;
     list-style-type:circle; /* Remove default list styles */
     columns: 3;
     margin-left: 9%; /* Split the list into three columns */
-  }
+  padding-bottom: 5%;
+}
 .tab-contents li {
     font-size: 20px;
     margin-bottom: 10px;
@@ -452,7 +453,4 @@ margin-top: 3%;
 }
 main{
     background: url(3.);
-}
-title{
-    font-family: cursive;
 }
